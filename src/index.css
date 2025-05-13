@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary-blue: #0079ff;
+  --grey-blue: #697c9a;
+  --blue-grey: #4b6a9b;
+  --dark-grey: #2b3442;
+  --light-grey: #f6f8ff;
+  --off-white: #fefefe;
+  --btn-text: #fff;
+}
+
+.dark {
+  --blue-grey: #fff;
+  --dark-grey: #fff;
+  --light-grey: #141d2f;
+  --off-white: #1e2a47;
+}
+
