@@ -21,3 +21,32 @@
   --off-white: #1e2a47;
 }
 
+body {
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+}
+
+
+button, input {
+  border: none;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+

@@ -1,0 +1,136 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: var(--light-grey);
+}
+
+.container {
+    width: 45rem;
+    display: grid;
+    gap: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark-grey);
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    background-color: var(--off-white);
+    padding: 8px 8px 8px 20px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--grey-blue);
+}
+
+form input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    padding-block: 10px;
+    color: var(--dark-grey);
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    background-color: var(--primary-blue);
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--btn-text);
+}
+
+.card {
+    background-color: var(--off-white);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 10px;
+       box-shadow: 0px 0px 10px var(--grey-blue);
+}
+
+.picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   display: flex;
+    overflow: hidden;
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.details {
+    display: grid;
+    gap: 30px;
+}
+
+.details p {
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.name h1 {
+    font-size: 1.5rem;
+    color: var(--dark-grey);
+}
+
+.name p {
+    color: var(--primary-blue);
+}
+
+.stats {
+    padding: 10px 20px;
+    background-color: var(--light-grey);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.stat p {
+    font-size: 0.8rem;
+}
+.stat h2 {
+    color: var(--dark-grey);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 50%;
+}
+
+.contacts {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.inactive {
+    color:var(--grey-blue) !important;
+}
